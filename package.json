@@ -1,0 +1,59 @@
+{
+  "name": "unixify",
+  "description": "Convert Windows file paths to unix paths.",
+  "version": "0.2.0",
+  "homepage": "https://github.com/jonschlinkert/unixify",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/unixify",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/unixify/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "normalize-path": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "backslash",
+    "directory",
+    "file",
+    "filepath",
+    "fix",
+    "forward",
+    "fp",
+    "fs",
+    "normalize",
+    "path",
+    "slash",
+    "slashes",
+    "trailing",
+    "unix",
+    "urix",
+    "windows"
+  ],
+  "verb": {
+    "related": {
+      "description": "Other useful libraries for working with paths in node.js:",
+      "list": [
+        "contains-path",
+        "ends-with",
+        "is-absolute",
+        "is-relative",
+        "normalize-path",
+        "parse-filepath",
+        "path-ends-with",
+        "path-segments",
+        "rewrite-ext"
+      ]
+    }
+  }
+}
