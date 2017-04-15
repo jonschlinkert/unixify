@@ -9,7 +9,9 @@
     "url": "https://github.com/jonschlinkert/unixify/issues"
   },
   "license": "MIT",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -18,10 +20,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "normalize-path": "^2.0.0"
+    "normalize-path": "^2.1.1"
   },
   "devDependencies": {
-    "mocha": "*"
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.2.0"
   },
   "keywords": [
     "backslash",
@@ -38,6 +41,7 @@
     "slashes",
     "trailing",
     "unix",
+    "unixify",
     "urix",
     "windows"
   ],
@@ -48,13 +52,20 @@
         "contains-path",
         "ends-with",
         "is-absolute",
-        "is-relative",
         "normalize-path",
-        "parse-filepath",
-        "path-ends-with",
-        "path-segments",
-        "rewrite-ext"
+        "path-ends-with"
       ]
+    },
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
     }
   }
 }
